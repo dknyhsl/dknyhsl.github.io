@@ -1,0 +1,48 @@
+.profile-img{
+    width: 150px;
+    height:150px;
+    clip-path:circle(40%);
+
+    /* 置中 */
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+
+    margin-top:-80px;
+}
+
+.card{
+    background-color: beige;
+    height:450px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+
+    margin:10px;
+}
+
+.banner-image{
+
+    background-image: url(images/background.png);
+    height:200px;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+.btn{
+    width:100%;
+    border:none;
+    font-size:20px;
+    color:white;
+    background-color:blueviolet;
+    padding:20px;
+
+    /* 移到下方 */
+    position:absolute;
+    bottom:0;
+    left:0;
+}

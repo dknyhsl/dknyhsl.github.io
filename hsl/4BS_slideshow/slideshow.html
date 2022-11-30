@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slideshow 練習</title>
+        <meta charset="UTF-8">
+        <!-- 響應式網站 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Boostrap 導入程式 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+        <!-- 連結CSS -->
+        <link rel="stylesheet" href="slideshow.css">
+    </head>
+
+    <body>
+        <!-- 投影片架構 -->
+        <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
+            <!-- 圖片投影 元件１-->
+            <div class="carousel-inner">
+                <!-- 第一張圖片 active　-->
+                <div class="carousel-item active">
+                    <img class="slide-pic" src="images/slide1.png" alt="slide1">
+                    <div class="carousel-caption">
+                        <h2>免費　網頁設計教學</h2>
+                    </div>
+                </div>
+
+                 <!-- 第二張圖片 -->
+                 <div class="carousel-item ">
+                    <img class="slide-pic" src="images/slide2.png" alt="slide2">
+                    <div class="carousel-caption">
+                        <h2>網頁設計專案開發</h2>
+                    </div>
+                </div>
+
+                 <!-- 第三張圖片 -->
+                 <div class="carousel-item ">
+                    <img class="slide-pic" src="images/slide3.png" alt="slide3">
+                    <div class="carousel-caption">
+                        <h2>網頁設計　問與答</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 左右按鈕　元件２ -->
+                <!-- 左邊按鈕 -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+                <!-- 右邊按鈕 -->
+            <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+            <!-- 指示按鈕　元件３ -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slideshow" data-bs-slide-to="0" class="active">
+
+                </button>
+
+                <button type="button" data-bs-target="#slideshow" data-bs-slide-to="1" >
+
+                </button>
+
+                <button type="button" data-bs-target="#slideshow" data-bs-slide-to="2" >
+
+                </button>
+
+
+            </div>
+
+        </div>
+
+
+
+    </body>
+
+    
+</html>
+

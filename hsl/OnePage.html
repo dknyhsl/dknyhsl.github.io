@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家庭記事本</title>
+
+<!-- Bootstrap 5 連結 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<!-- CSS連結 -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- 2導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+        <div class="container-fluid">
+            <!-- 品牌logo -->
+            <a class="navbar-brand" href="#"><img width="50px" height="50px" src="images/cwc.png"></a>
+
+            <!-- 第一部份：手機版 -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#linkbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <!-- 第二部份：桌上型電腦版 -->
+
+            <div class="collapse navbar-collapse" id="linkbar">
+                <!-- 列出內容 -->
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">C w C Channel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">關於我們</a>
+                    </li>
+                </ul>
+                <!-- 列出到右邊 -->
+                <form style="width:300px;" class="input-group">
+                    <input class="form-control me-3" type="search" placeholder="搜尋">
+                    <button class="btn btn-success" type="submit">搜尋</button>
+
+                </form>
+
+
+            </div>
+
+
+
+        </div>
+    </nav>
+    <!-- 1三欄位 -->
+    <div class="container-intro text-center">
+        <div class="row">
+            <div class="col-sm-4">
+                <p style="color:yellow; font-size:30px;padding-top:100px;">歡迎來到C  w  C 頻道</p>
+
+            </div>
+            <div class="col-sm-4">
+                <p>這個頻道的主軸在於提供科技知識分享、創意激發以及網頁程式設計學習的三大方向。
+
+                    目標是讓大家讓夠在科技及網頁的領域裡頭能學習、成長、進步、提昇技能及知識。
+                    
+                    
+                    如果有任何的評論也歡迎大家分享到討論區。
+                    
+                    最終的願景是科技平民化，讓大家都能參與的共享知識。
+                    
+                    也期待這個頻道能夠為我們的未來構思出明確的方向。</p>
+
+            </div>
+            <div class="col-sm-4">
+                <img class="pic" src="images/cwc1.PNG">
+
+            </div>
+
+        </div>
+    </div>
+    <!-- 3介紹卡 -->
+    <div class="container-card text-center">
+        <div class="row">
+            <!-- 第一個卡片 -->
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="banner-image"></div>
+                    <img src="images/boy1.png" alt="profile pic" class="profile-img">
+                    <div class="card-body">
+                        <h5 class="card-title">陳阿其</h5>
+                        <p class="card-text">前端使用者介面　設計師</p>
+                        <a href="#" class="btn btn-primary">詳細資料</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 第二個卡片 -->
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="banner-image"></div>
+                    <img src="images/girl.jpg" alt="profile pic" class="profile-img">
+                    <div class="card-body">
+                        <h5 class="card-title">江小珍</h5>
+                        <p class="card-text">資料庫管理　設計師</p>
+                        <a href="#" class="btn btn-primary">詳細資料</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 第三個卡片 -->
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="banner-image"></div>
+                    <img src="images/boy2.png" alt="profile pic" class="profile-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Rex Chen</h5>
+                        <p class="card-text">Back-End System Developer</p>
+                        <a href="#" class="btn btn-primary">詳細資料</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- 4幻燈片 -->
+    <!-- 投影片架構 -->
+    <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
+        <!-- 圖片投影 元件１-->
+        <div class="carousel-inner">
+            <!-- 第一張圖片 active　-->
+            <div class="carousel-item active">
+                <img class="slide-pic" src="images/slide1.png" alt="slide1">
+                <div class="carousel-caption">
+                    <h2>免費　網頁設計教學</h2>
+                </div>
+            </div>
+
+             <!-- 第二張圖片 -->
+             <div class="carousel-item ">
+                <img class="slide-pic" src="images/slide2.png" alt="slide2">
+                <div class="carousel-caption">
+                    <h2>網頁設計專案開發</h2>
+                </div>
+            </div>
+
+             <!-- 第三張圖片 -->
+             <div class="carousel-item ">
+                <img class="slide-pic" src="images/slide3.png" alt="slide3">
+                <div class="carousel-caption">
+                    <h2>網頁設計　問與答</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- 左右按鈕　元件２ -->
+            <!-- 左邊按鈕 -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+            <!-- 右邊按鈕 -->
+        <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+        <!-- 指示按鈕　元件３ -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="0" class="active">
+
+            </button>
+
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="1" >
+
+            </button>
+
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="2" >
+
+            </button>
+
+
+        </div>
+
+    </div>
+    <!-- 8分頁 -->
+    <div class="container-fluid">
+        <h1>網頁程式語言主題</h1>
+
+        <!-- 第一部份：標籤分頁的導覽列 -->
+        <div class="nav nav-tabs nav-justified">
+            <!-- 按鈕1 -->
+            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#menu1" aria-selected="true">
+                    HTML
+            </button>
+            <!-- 按鈕2 -->
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu2" aria-selected="false">
+                    CSS
+            </button>
+            <!-- 按鈕3 -->
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu3" aria-selected="false">
+                    JavaScript
+            </button>
+
+
+        </div>
+
+
+        <!-- 第二部份：標籤分頁的內容 -->
+        <div class="tab-content">
+            <!-- 第1個內容 -->
+            <div class="tab-pane fade show active" id="menu1">
+                <h3>HTML</h3>
+                <img src="Images/html.png" alt="">
+            </div>
+            <!-- 第2個內容 -->
+            <div class="tab-pane fade" id="menu2">
+                <h3>CSS</h3>
+                <img src="Images/css.png" alt="">
+            </div>
+            <!-- 第3個內容 -->
+            <div class="tab-pane fade" id="menu3">
+                <h3>JavaScript</h3>
+                <img src="Images/js.png" alt="">
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+</body>
+</html>

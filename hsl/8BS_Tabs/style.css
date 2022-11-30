@@ -1,0 +1,41 @@
+.container-fluid {
+    background-color: rgb(203, 203, 203);
+}
+
+.tab-content img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 5px solid brown;
+    border-radius: 50%; */
+}
+
+h1 {
+    text-align: center;
+    padding: 60px;
+    color: blueviolet;
+}
+
+.nav-tabs .nav-link.active {
+    color: white;
+    background-color: rgb(136, 25, 247);
+    border-color: rgb(2, 2, 2);
+    border-bottom: 0px;
+}
+
+.nav-link {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid black;
+}
+
+.tab-content h3 {
+    text-align: center;
+    padding: 30px;
+    color: blueviolet;
+}

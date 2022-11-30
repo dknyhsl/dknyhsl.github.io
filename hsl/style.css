@@ -1,0 +1,171 @@
+/* 2導覽列 */
+body{
+    background-color: gray;
+}
+
+nav{
+    height:70px;
+}
+.navbar{
+    background-color: indigo;
+}
+
+li a {
+    color:yellow !important;
+    font-size:20px;
+   
+}
+li a:hover{
+    color:indigo !important;
+    background-color: lightyellow;
+    
+}
+.navbar-toggler{
+    background-color: lightgray;
+}
+
+.nav-link {
+    padding:20px;
+}
+
+@media (max-width:600px){
+    nav{
+        height:auto;
+    }
+    .nav-link {
+        padding:10px;
+    }
+}
+
+
+/* 1三欄位 */
+.container-intro{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,9,121,0.8351541300113796) 35%, rgba(0,212,255,1) 100%); 
+
+    padding:20px;   
+    color:white; 
+    font-size:20px;   
+
+}
+
+.pic{
+    width:300px;
+    height:300px;
+    border:5px solid rgb(50, 49, 49);
+    border-radius:50%;
+    padding:20px;
+}
+
+
+/* 3介紹卡 */
+.profile-img{
+    width: 150px;
+    height:150px;
+    clip-path:circle(40%);
+
+    /* 置中 */
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+
+    margin-top:-80px;
+}
+
+.card{
+    background-color: beige;
+    height:450px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+
+    margin:10px;
+}
+
+.banner-image{
+
+    background-image: url(images/background.png);
+    height:200px;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+.btn{
+    width:100%;
+    border:none;
+    font-size:20px;
+    color:white;
+    background-color:blueviolet;
+    padding:20px;
+
+    /* 移到下方 */
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+/* 4幻燈片 */
+body{
+    background-color: rgb(252, 255, 224);
+}
+
+.slide-pic{
+    width:100%;
+    height:350px;
+}
+
+.carousel-item h2{
+    color:yellow;
+
+    background: rgb(16,43,28);
+    background: linear-gradient(90deg, rgba(16,43,28,0) 25%, rgba(50,53,52,0.798739564185049) 33%, rgba(53,54,53,0.809943960494354) 70%, rgba(54,54,54,0) 80%); 
+}
+
+
+/* 8分頁 */
+.container-fluid {
+    background-color: rgb(203, 203, 203);
+}
+
+.tab-content img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 5px solid brown;
+    border-radius: 50%; */
+}
+
+h1 {
+    text-align: center;
+    padding: 60px;
+    color: blueviolet;
+}
+
+.nav-tabs .nav-link.active {
+    color: white;
+    background-color: rgb(136, 25, 247);
+    border-color: rgb(2, 2, 2);
+    border-bottom: 0px;
+}
+
+.nav-link {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid black;
+}
+
+.tab-content h3 {
+    text-align: center;
+    padding: 30px;
+    color: blueviolet;
+}
